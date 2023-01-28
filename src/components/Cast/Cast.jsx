@@ -16,7 +16,6 @@ export const Cast = () => {
   if (!cast) {
     return;
   }
-  console.log(imgBaseUrl);
 
   return (
     <List>

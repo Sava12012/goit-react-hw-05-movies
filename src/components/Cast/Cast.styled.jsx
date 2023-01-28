@@ -10,18 +10,29 @@ export const List = styled.ul`
 
 export const Item = styled.li`
   flex-basis: 250px;
+  background-color: var(--bg);
+  box-shadow: var(--main-shadow);
 `;
 
 export const Img = styled.img`
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   border-radius: 4px;
 `;
 
 export const Name = styled.p`
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 `;
 
 export const Character = styled.p`
+  margin-bottom: 8px;
   color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 `;
