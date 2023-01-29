@@ -17,6 +17,7 @@ export const Item = styled.li`
 export const Img = styled.img`
   margin-bottom: 8px;
   border-radius: 4px;
+  min-height: 375px;
 `;
 
 export const Name = styled.p`
